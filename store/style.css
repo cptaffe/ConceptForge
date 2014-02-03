@@ -1,0 +1,171 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-image:url('http://127.0.0.1/ConceptForge/images/pattern-37436.svg');
+    background-size: 30%;
+    background-repeat: repeat;
+    background-color: rgba(0,0,0,0.1);
+}
+body{
+    margin: auto;
+    font-family: sans-serif;
+}
+#main{
+    min-width: 600px;
+    max-width: 880px;
+    width: 80%;
+    margin: auto;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+h1,h2,h3{
+    font-weight: 400;
+    padding-bottom: 5px;
+}
+nav{
+    min-width: 600px;
+    max-width: 880px;
+    width: 80%;
+    margin: auto;
+}
+header{
+    min-width: 600px;
+    max-width: 880px;
+    width: 80%;
+    margin: auto;
+    position: relative;
+    margin-top: 20px;
+    font-weight: 200;
+    background-image: url(http://127.0.0.1/ConceptForge/images/Logp.svg);
+    background-size: contain;
+    background-position: left;
+    background-repeat: no-repeat;
+    padding-left: 80px;
+    margin-bottom: 20px;
+}
+header>h1{
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+header>p{
+    color: rgba(0,0,0,0.6);
+}
+nav>ul{
+    margin-top: 50px;
+}
+/*nav>ul>a:first-child{
+    border-radius: 3px 0 0 3px;
+}
+nav>ul>a:last-child{
+    border-radius: 0 3px 3px 0;
+}
+*/
+nav>ul>a{
+    margin-right: 5px;
+    margin-left: 5px;
+    text-decoration: none;
+    color: inherit;
+    border-radius: 3px;
+    padding: 5px 10px 5px 10px;
+    color: rgba(102,102,102,1);
+    /*color: rgba(230,230,230,1);*/
+    font-weight: 200;
+    transition: 0.5s all ease;
+    /*box-shadow: 0 0 3px black;*/
+}
+nav>ul>a>li{
+    display: inline;
+}
+nav>ul>a:hover{
+    color: rgba(212,85,0,1);
+}
+#slideshow{
+    width: 80%;
+    min-width: 480px;
+    max-width: 880px;
+    margin: auto;
+    position: relative;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    background-color: white;
+    padding: 20px;
+    font-weight:200;
+    color: rgba(0,0,0,0.8);
+    box-shadow: 0 0 5px black;
+    border-radius: 3px;
+    height: 350px;
+    background-color: rgba(0,0,0,0.85);
+    /*
+    background-image: url(http://www.californiaindianeducation.org/science_lab/pics/space_photos/Tarantula_Nebula.jpg);
+    */
+    background-image: url(http://127.0.0.1/ConceptForge/images/Wally.png);
+    /*
+    Use this for an "About Us" slide.
+    background-image: url(Logp.svg);
+    */
+    background-size: 100% auto;
+    background-position: center;
+}
+#slideshow #info{
+    margin-top: 130px;
+    margin-left: 0;
+    width: 30%;
+    padding: 5px;
+    border-radius: 3px;
+    color: rgba(255,255,255,0.8);
+    text-shadow: 0 2px 2px rgba(0,0,0,0.8);
+}
+#slideshow h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 500;
+}
+#slideshow .arrow{
+    transition: 0.5s all ease;
+    color: rgba(102,102,102,1);
+    cursor: pointer;
+    font-weight: 800;
+    font-size: 25pt;
+}
+#slideshow .arrow:hover{
+    color: rgba(212, 85, 0, 1);
+}
+#slideshow #right{
+    position: absolute;
+    right: -40px;
+    bottom: 175px;
+}
+#slideshow #left{
+    position: absolute;
+    left: -40px;
+    bottom: 175px;
+}
+#slideshow #image{
+    position: absolute;
+    right: 65px;
+    top: 60px;
+}
+#footer{
+    width: 100%;
+    box-shadow: inset 1px 4px 9px -6px;
+    background-color: rgba(200,200,200,1);
+}
+#footer div{
+    font-weight: 200;
+    padding: 30px;
+    min-width: 600px;
+    max-width: 880px;
+    width: 80%;
+    margin: auto;
+    background-image: url(http://127.0.0.1/ConceptForge/images/LogpOp.svg);
+    background-size: 600px auto;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+a{
+    color: rgba(212,85,0,1);
+    text-decoration: none;
+    transition: 0.5s all ease;
+}
