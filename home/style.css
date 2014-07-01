@@ -3,7 +3,7 @@
     padding: 0;
 }
 html{
-    background-image:url('http://127.0.0.1/ConceptForge/images/pattern-37436.svg');
+    background-image:url('../images/pattern-37436.svg');
     background-size: 30%;
     background-repeat: repeat;
     background-color: rgba(0,0,0,0.1);
@@ -38,7 +38,7 @@ header{
     position: relative;
     margin-top: 20px;
     font-weight: 200;
-    background-image: url('http://127.0.0.1/ConceptForge/images/Logp.svg');
+    background-image: url('../images/Logp.svg');
     background-size: contain;
     background-position: left;
     background-repeat: no-repeat;
@@ -100,7 +100,7 @@ nav>ul>a:hover{
     /*
     background-image: url(http://www.californiaindianeducation.org/science_lab/pics/space_photos/Tarantula_Nebula.jpg);
     */
-    background-image: url('http://127.0.0.1/ConceptForge/images/Wally.png');
+    background-image: url('../images/Wally.png');
     /*
     Use this for an "About Us" slide.
     background-image: url(Logp.svg);
@@ -159,7 +159,7 @@ nav>ul>a:hover{
     max-width: 880px;
     width: 80%;
     margin: auto;
-    background-image: url(http://127.0.0.1/ConceptForge/images/LogpOp.svg);
+    background-image: url('../images/LogpOp.svg');
     background-size: 600px auto;
     background-position: center;
     background-repeat: no-repeat;
